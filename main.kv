@@ -1,0 +1,34 @@
+
+
+MDScreen:
+    name: "Main"
+    MDBottomNavigation:
+        pannel_colour: '0,1,0,1'
+        MDBottomNavigationItem:
+            name: 'screen 1'
+            text: "Home"
+            icon: 'earth'
+            MDFloatLayout:
+                MDBoxLayout:
+                    MDFloatingActionButtonSpeedDial:
+                        data: app.data
+                        hint_animation: True
+                        bg_hint_color: app.theme_cls.primary_light
+
+        MDBottomNavigationItem:
+            name: 'screen 2'
+            text: "Java"
+            icon: 'android'
+            MDLabel:
+                text: "world"
+                halign : 'center'
+        MDBottomNavigationItem:
+            name: 'screen 3'
+            text: "Swift"
+            icon: 'apple'
+            MDLabel:
+                text: "hello"
+                halign : 'center'   
+
+
+            
